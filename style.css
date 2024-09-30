@@ -1,0 +1,96 @@
+/* this is background of the page */
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url(oil_gas_image.jpg);
+
+}
+/* making the manue bar in inline */
+.navbar_css{
+    display:flex;
+
+}
+/* this code for the rayspeed icon in the left side.................................. */
+#imagenew{
+    height: 225px;
+    /* border:solid red; */
+    margin:10px;
+    padding:10px;
+    border-radius: 140px;
+
+}
+img{
+    height: 200px;
+    border-radius: 140px;
+}
+/* This is for the main manu of the manue bar and their other adjustments....................... */
+.actionbar{
+    display: flex;
+    flex-direction: row;
+    /* border:solid red; */
+    margin: 41px;
+    padding:10px;
+    width:1373px;
+    }
+    .actionbar ul{
+        display: flex;
+        /* border: solid red; */
+        width:1300px;
+        margin: 30px;
+    }
+    
+.actionbar ul li a{
+    text-align: center;
+    text-decoration: none;
+    /* margin: auto; */
+    margin: 10px 45px;
+    font-size: 45px;
+    /* padding: 10px 10px;     */
+    color:rgb(34, 5, 82);
+    /* border:solid red; */
+
+}
+/* this is for putting the effect of the hover in the main manu */
+.actionbar ul li a:hover{
+    font-weight: bold;
+    color: green;
+}
+.image_bar{
+    /* border: solid red; */
+    margin: 68px 10px;
+    padding:10px;
+    width: 188px;
+    height:20px;
+
+}
+/* making the main manu list invisible.... */
+ul{
+    list-style-type: none;
+}
+/* This code for the main sectin in which  description of ray speed solutions has been written of the top of the page. */
+.section_bar{
+    display: block;
+    width:640px;
+    font-weight: bold;
+    font-size: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:blue;
+    padding: 5px 20px;
+    margin: 1px 20px;
+    text-align:justify;
+    /* border:solid red */
+
+
+}
+/* this code for the footer adjustmentsm and their margin  */
+.div_anchor{
+    background-color: aliceblue;
+    display: inline-block;
+    width: 948px;
+    height:100px;
+    
+}
+.div_anchor a{
+    color: blue;
+}
+ /* code for media queries and making site responsive  */
